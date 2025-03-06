@@ -1,0 +1,89 @@
+body{
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header img{
+    max-width: 9%;
+}
+
+.navbar{
+    background-color: #cccccc;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #6e6e6e;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover{
+    color: #000000;
+}
+
+/* Adptação do "carousel" para telas ultrawide */
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 600px;
+}
+/* Fim da adaptação */
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: "Kanit", sans-serif;
+}
+
+#sobre-a-loja,
+#produtos{
+    background-color: #181818;
+}
+
+.text-colored{
+    color: #a5a5a5;
+}
+
+#departamentos{
+    background-color: #000000;
+}
+
+#departamentos img{
+    max-height: 236px;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button{
+    background-color:  #181818;
+    color: #fff;
+}
+
+#fale-conosco{
+    background-color: #000000;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-produtos .nav-link:hover{
+    color: #fff;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
